@@ -1,0 +1,74 @@
+.refund_heading{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+
+}
+
+.refund_para{
+    width: 90%;
+    border-radius: 2rem;
+    margin-top: 3em;
+    margin-bottom: 5rem;
+    margin-left: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.refund_para h3{
+    font-weight: 700;   
+}
+.no_1{
+    font-size: 1.5em;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.sub_headings,.sub_headings2{
+    padding-left: 7em;
+}
+.sub_h{
+    font-size: 1em;
+    font-weight: 700;
+}
+@media(min-width: 200px) and (max-width: 912px) {
+    .refund_heading{
+        margin-top: 10rem;
+        padding-left: 0.5rem;
+        padding-right: 1rem;
+        font-size: 1.7rem;
+    }
+    .refund_para{
+        width: 90%;
+        margin-top: 2rem;
+        margin-left: 1.3rem;
+        padding: 2rem ;
+    }
+    .refund_para h3{
+        padding-right: 2rem ; 
+        padding-bottom: 1rem;  
+    }
+    .sub_headings{
+        padding-left: 2rem;
+    }
+    .sub_headings2{
+        padding-left: 1.5rem;
+    }
+    .no_1{
+        font-size: 1.8rem;
+    }
+}
+@media(min-width: 600px) and (max-width: 912px) {
+    .refund_para{
+        width: 90%;
+        margin-left: 2rem;
+    }
+}

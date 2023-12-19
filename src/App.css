@@ -1,4 +1,22 @@
-.app{
-  width: 100%;
+.App{
+  width: 100vw;
+  margin-right: 0cm;
+  flex-direction: column;
+  display: flex;
   height: 100vh;
+  /* height: 100%; */
+}
+.ll {
+  position: fixed;
+  top: 100px;
+  position: fixed;
+  top: 150px;
+
+}
+@media (max-width: 600px){
+  .App{
+height: 100vh;
+    width: 100vw;
+  }
+
 }
